@@ -12,6 +12,7 @@ import { Typography,
          Button,
          ButtonGroup  } from '@mui/material';
 import CameraIcon from '@mui/icons-material/PhotoCamera';
+import { makeStyles } from 'tss-react/mui';
 
 const App = () => {
     return (
@@ -27,7 +28,7 @@ const App = () => {
               </AppBar>
               <main>
                 <div>
-                    <Container maxWidth="sm">
+                    <Container maxWidth="sm" style={{ marginTop:'100px '}}>
                         <Typography variant="h2" align="center" color="text.primary" gutterBottom>
                             Photo Album
                         </Typography>
